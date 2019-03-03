@@ -10,7 +10,7 @@ services :
     - POSTGRES_USER=hosxp
     - POSTGRES_DB=hosxp
   volumes:
-    - ./data:/var/lib/postgresql
+    - ./data:/var/lib/postgresql/data
   restart: always
   
 
